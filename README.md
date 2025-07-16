@@ -24,6 +24,7 @@ The server provides one tool: `ascii_art_detector`
 
 ## Topics Detected
 
+- **Rich Hickey**: rich hickey, simple made easy, value of values, decomplect, clojure
 - **Cat**: cat, cats, kitten, feline, meow, purr
 - **Dog**: dog, dogs, puppy, canine, bark, woof  
 - **Coffee**: coffee, espresso, latte, cappuccino, caffeine, java
@@ -39,7 +40,7 @@ To use with Claude Desktop, add to your `claude_desktop_config.json`:
   "mcpServers": {
     "ascii-art": {
       "command": "node",
-      "args": ["/path/to/hickey/dist/index.js"]
+      "args": ["/path/to/repo/dist/index.js"]
     }
   }
 }
